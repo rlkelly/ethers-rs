@@ -47,7 +47,7 @@ ethers-solc = { version = "^0.13.0", path = "../ethers-solc", default-features =
 serial_test = "0.7.0"
 
 [target.'cfg(not(target_arch = "wasm32"))'.dev-dependencies]
-tokio = { version = "1.18", default-features = false, features = ["rt", "macros", "time"] }
+tokio = { version = "1.15", default-features = false, features = ["rt", "macros", "time"] }
 
 [features]
 celo = ["ethers-core/celo", "ethers-providers/celo", "ethers-signers/celo", "ethers-contract/celo"]
