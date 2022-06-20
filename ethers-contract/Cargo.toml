@@ -34,9 +34,6 @@ ethers-core = { version = "^0.13.0", path = "../ethers-core", default-features =
 ethers-derive-eip712 = { version = "^0.13.0", path = "../ethers-core/ethers-derive-eip712"}
 ethers-solc = { version = "^0.13.0", path = "../ethers-solc", default-features = false }
 
-[target.'cfg(not(target_arch = "wasm32"))'.dev-dependencies]
-tokio = { version = "1.15", default-features = false, features = ["macros"] }
-
 [features]
 eip712 = ["ethers-derive-eip712", "ethers-core/eip712"]
 abigen = ["ethers-contract-abigen/reqwest", "ethers-contract-derive"]
