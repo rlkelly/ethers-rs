@@ -56,6 +56,7 @@ solc-sha2-asm = ["ethers-solc/asm"]
 [dependencies]
 ethers-addressbook = { version = "^0.13.0", default-features = false, path = "./ethers-addressbook" }
 ethers-core = { version = "^0.13.0", default-features = false, path = "./ethers-core" }
+ethers-etherscan = { version = "^0.13.0", default-features = false, path = "./ethers-etherscan" }
 ethers-providers = { version = "^0.13.0", default-features = false, path = "./ethers-providers" }
 ethers-solc = { version = "^0.13.0", default-features = false, path = "./ethers-solc" }
 

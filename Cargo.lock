@@ -1135,6 +1135,7 @@ dependencies = [
  "ethers-addressbook",
  "ethers-contract",
  "ethers-core",
+ "ethers-etherscan",
  "ethers-providers",
  "ethers-solc",
  "eyre",
