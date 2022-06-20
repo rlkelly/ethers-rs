@@ -1132,6 +1132,7 @@ name = "ethers"
 version = "0.13.0"
 dependencies = [
  "bytes",
+ "ethers-addressbook",
  "ethers-contract",
  "ethers-core",
  "ethers-providers",
@@ -1141,6 +1142,16 @@ dependencies = [
  "serde",
  "serde_json",
  "tokio",
+]
+
+[[package]]
+name = "ethers-addressbook"
+version = "0.13.0"
+dependencies = [
+ "ethers-core",
+ "once_cell",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
