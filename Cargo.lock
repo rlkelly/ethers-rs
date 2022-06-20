@@ -1136,6 +1136,7 @@ dependencies = [
  "ethers-contract",
  "ethers-core",
  "ethers-providers",
+ "ethers-solc",
  "eyre",
  "hex",
  "rand 0.8.5",
