@@ -40,9 +40,9 @@ rustls = ["ethers-providers/rustls", "ethers-etherscan/rustls", "ethers-contract
 openssl = ["ethers-providers/openssl", "ethers-etherscan/openssl", "ethers-contract/openssl", "ethers-solc/openssl"]
 dev-rpc = ["ethers-providers/dev-rpc"]
 ## signers
-ledger = ["ethers-signers/ledger"]
-trezor = ["ethers-signers/trezor"]
-yubi = ["ethers-signers/yubi"]
+#### ledger = ["ethers-signers/ledger"]
+#### trezor = ["ethers-signers/trezor"]
+#### yubi = ["ethers-signers/yubi"]
 ## contracts
 abigen = ["ethers-contract/abigen"]
 ### abigen without reqwest
@@ -59,7 +59,7 @@ ethers-contract = { version = "^0.13.0", default-features = false, path = "./eth
 ethers-core = { version = "^0.13.0", default-features = false, path = "./ethers-core" }
 ethers-etherscan = { version = "^0.13.0", default-features = false, path = "./ethers-etherscan" }
 ethers-providers = { version = "^0.13.0", default-features = false, path = "./ethers-providers" }
-ethers-solc = { version = "^0.13.0", default-features = false, path = "./ethers-solc" }
+ethers-signers = { version = "^0.13.0", default-features = false, path = "./ethers-signers" }
 
 [dev-dependencies]
 ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract", features = ["abigen", "eip712"] }
