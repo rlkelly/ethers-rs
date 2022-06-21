@@ -117,6 +117,3 @@ required-features = ["yubi"]
 name = "paginated_logs"
 path = "examples/paginated_logs.rs"
 required-features = ["rustls"]
-
-[patch.crates-io]
-eth-keystore = { git = "https://github.com/rlkelly/eth-keystore-rs.git", rev = "c931cca16734cc8bd6ccf4de24d648678a3786d5" }
