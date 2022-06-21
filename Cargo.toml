@@ -54,15 +54,8 @@ solc-tests = ["ethers-solc/tests"]
 solc-sha2-asm = ["ethers-solc/asm"]
 
 [dependencies]
-indexmap = "=1.8.0"
 ethers-addressbook = { version = "^0.13.0", default-features = false, path = "./ethers-addressbook" }
-ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract" }
 ethers-core = { version = "^0.13.0", default-features = false, path = "./ethers-core" }
-ethers-etherscan = { version = "^0.13.0", default-features = false, path = "./ethers-etherscan" }
-ethers-middleware = { version = "^0.13.0", default-features = false, path = "./ethers-middleware" }
-ethers-providers = { version = "^0.13.0", default-features = false, path = "./ethers-providers" }
-ethers-signers = { version = "^0.13.0", default-features = false, path = "./ethers-signers" }
-ethers-solc = { version = "^0.13.0", default-features = false, path = "./ethers-solc" }
 
 [dev-dependencies]
 ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract", features = ["abigen", "eip712"] }
