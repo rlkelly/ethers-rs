@@ -58,7 +58,6 @@ ethers-addressbook = { version = "^0.13.0", default-features = false, path = "./
 ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract" }
 ethers-core = { version = "^0.13.0", default-features = false, path = "./ethers-core" }
 ethers-etherscan = { version = "^0.13.0", default-features = false, path = "./ethers-etherscan" }
-ethers-middleware = { version = "^0.13.0", default-features = false, path = "./ethers-middleware" }
 ethers-providers = { version = "^0.13.0", default-features = false, path = "./ethers-providers" }
 
 [dev-dependencies]
