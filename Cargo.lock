@@ -1133,6 +1133,7 @@ dependencies = [
  "ethers-solc",
  "eyre",
  "hex",
+ "indexmap",
  "rand 0.8.5",
  "serde",
  "serde_json",
