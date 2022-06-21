@@ -1128,6 +1128,7 @@ dependencies = [
  "ethers-core",
  "ethers-etherscan",
  "ethers-providers",
+ "ethers-signers",
  "eyre",
  "hex",
  "rand 0.8.5",

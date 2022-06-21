@@ -59,6 +59,7 @@ ethers-contract = { version = "^0.13.0", default-features = false, path = "./eth
 ethers-core = { version = "^0.13.0", default-features = false, path = "./ethers-core" }
 ethers-etherscan = { version = "^0.13.0", default-features = false, path = "./ethers-etherscan" }
 ethers-providers = { version = "^0.13.0", default-features = false, path = "./ethers-providers" }
+ethers-signers = { version = "^0.13.0", default-features = false, path = "./ethers-signers" }
 
 [dev-dependencies]
 ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract", features = ["abigen", "eip712"] }
