@@ -54,7 +54,7 @@ solc-tests = ["ethers-solc/tests"]
 solc-sha2-asm = ["ethers-solc/asm"]
 
 [dependencies]
-indexmap = "1.8.0"
+indexmap = "=1.8.0"
 ethers-addressbook = { version = "^0.13.0", default-features = false, path = "./ethers-addressbook" }
 ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract" }
 ethers-core = { version = "^0.13.0", default-features = false, path = "./ethers-core" }
