@@ -104,20 +104,24 @@ pub mod providers {
     pub use ethers_providers::*;
 }
 
+/*
 #[doc = include_str!("../assets/MIDDLEWARE_README.md")]
 pub mod middleware {
     pub use ethers_middleware::*;
 }
+*/
 
 #[doc = include_str!("../assets/SIGNERS_README.md")]
 pub mod signers {
     pub use ethers_signers::*;
 }
 
+/*
 #[doc = include_str!("../assets/SOLC_README.md")]
 pub mod solc {
     pub use ethers_solc::*;
 }
+*/
 
 /// Etherscan bindings
 pub mod etherscan {
@@ -135,13 +139,13 @@ pub mod prelude {
 
     pub use super::core::{types::*, *};
 
-    pub use super::middleware::*;
+    // pub use super::middleware::*;
 
     pub use super::providers::*;
 
     pub use super::signers::*;
 
-    pub use super::solc::*;
+    // pub use super::solc::*;
 
     pub use super::etherscan::*;
 }
