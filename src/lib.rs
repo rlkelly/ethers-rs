@@ -116,12 +116,10 @@ pub mod signers {
     pub use ethers_signers::*;
 }
 
-/*
 #[doc = include_str!("../assets/SOLC_README.md")]
 pub mod solc {
     pub use ethers_solc::*;
 }
-*/
 
 /// Etherscan bindings
 pub mod etherscan {
