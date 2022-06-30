@@ -50,6 +50,7 @@ pub fn ethers_providers_crate() -> Path {
 /// it was created by `cargo metadata`.
 pub fn determine_ethers_crates() -> (&'static str, &'static str, &'static str) {
     let manifest_dir = std::env::var("CARGO_MANIFEST_DIR");
+    println!("ZZZ {:?}", manifest_dir);
 
     // if there is no cargo manifest, default to `ethers::`-style imports.
     let manifest_dir = if let Ok(manifest_dir) = manifest_dir {
@@ -67,6 +68,7 @@ pub fn determine_ethers_crates() -> (&'static str, &'static str, &'static str) {
         .exec()
         .ok()
         .and_then(|metadata| {
+            println!("MDD {:?}", metadata);
             metadata.root_package().and_then(|pkg| {
                 let sub_crates = Some(("ethers_core", "ethers_contract", "ethers_providers"));
 
