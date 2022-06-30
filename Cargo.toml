@@ -62,7 +62,7 @@ ethers-providers = { version = "^0.13.0", default-features = false, path = "./et
 ethers-signers = { version = "^0.13.0", default-features = false, path = "./ethers-signers" }
 
 [dev-dependencies]
-ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract", features = ["eip712"] }
+ethers-contract = { version = "^0.13.0", default-features = false, path = "./ethers-contract", features = ["abigen", "eip712"] }
 ethers-providers = { version = "^0.13.0", default-features = false, path = "./ethers-providers", features = ["ws"] }
 
 [target.'cfg(target_family = "unix")'.dev-dependencies]
